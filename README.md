@@ -53,10 +53,12 @@ The status of all files can be known using,
 
 Now, commit the changes,
 >git commit -m "updated readme document"
-#commit always requires a meesage -m for message box 
+#commit always requires a message -m for message box 
 #another -m is optional, and that describes the description box
 
 >git commit -m "updated readme document" -m "Added commands for push, pull and commit"
+#if the commit isn't allowed because it doesn't recognise you, then 
+>git config --global user.email "radhika.jayaraman091@gmail.com"
 #After commiting your code to git, you have to send the code to github to store,
 use push command
 >git push origin master
