@@ -61,7 +61,7 @@ Now, commit the changes,
 >git config --global user.email "radhika.jayaraman091@gmail.com"
 #After commiting your code to git, you have to send the code to github to store,
 use push command
->git push origin master
+>git push origin master or >git push
 
 #Even there are any code change in github repo, then you can pull those changes to your local,
 use pull command
@@ -73,7 +73,7 @@ use pull command
 Create a new repository in GitHub and clone
 >git remote add origin <git ssh copied to clone>
 #Now, you can push the code to new repo in GitHub
->git push origin master
+>git push origin master or >git push
 
 #In case you want to create a branch and merge the branch to the master branch then,
 >git checkout -b <branch_name>
